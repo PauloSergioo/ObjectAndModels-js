@@ -1,8 +1,8 @@
-import * as order from 'js/models.js/order.js'
+import * as Order from "../models.js/order.js"
 
 export function total(Order) {
 
-    const porcent = 100 - discount;
+    const porcent = 100 - order.discount;
 
-    return basic * porcent / 100;
+    return order.basic * porcent / 100;
 }
